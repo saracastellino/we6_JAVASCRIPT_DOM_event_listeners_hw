@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Win a dream, win an exotic trip!</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src ="js/app_mio.js"></script>
+  </head>
+<body>
+    <h1>WIN A TRIP TO THE CARIBBEAN ISLANDS!</h1>
+        <h2>Fill in the form and try your luck</h2>
+        <form id="form">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" required><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" required><br><br>
+            <label for="email">Your email:</label>
+            <input type="text" id="email" name="email" required><br>
+            <h3>Tell us why you deserve this holiday!</h3><br>
+            <textarea name="message" rows="10" cols="70" required>Tell us why you deserve to win</textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+   
+    <h1>Check before submitting</h1>
+        <ul id="check-list"></ul>
+
+    <h3>Happy with your form? Anwer here and submit your application,<br>otherwise hit the "Delete all" button!</h3>
+        <button id="delete-button">Delete all!</button>
+     <h4>Have you read our <a href="http://">Terms and Conditions</a>?</h4>
+        
+            <input type="checkbox" name="termsandconditions" id="t-and-c" required>
+            <label for="t-and-c">Yes, I have read and accept Terms and Conditions</label>
+
+        <h4>Do you want to receive our Newsletter?</h4>
+
+            <input type="radio" id="no" name="newsletter" value="no" required>
+            <label for="no">No, thanks! I prefer not to receive special offers from you</label><br>
+            <input type="radio" id="yes" name="newsletter" value="yes" required>
+            <label for="yes">Yes, thanks! I know you will send me relevant content</label><br>
+        <br><br>
+        
+        <button id="submit-button">Ready to pack!</button>
+</body>
+</html>
