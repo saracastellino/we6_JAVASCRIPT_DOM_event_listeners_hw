@@ -1,74 +1,74 @@
+  
 body {
-    font-family: Montserrat;
-    font-size: 1.5vw;
-    color: white;
-    background-image: url('images/win_caribbean.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
+  font-family: Montserrat;
+  font-size: 1.5vw;
+  color: white;
+  background-image: url('images/win_caribbean.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
-  /* #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-  } */
+/* #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+} */
 
-    h1 {
-        font-family: 'Permanent Marker', cursive;
-        font-size: 6vw;
-        color: white;
-    }
-    
-    h2 {
-        font-family: 'Permanent Marker', cursive;
-        font-size: 3vw;
-        color: white;
-    }
-
-    h3 {  
-        font-family: 'Liu Jian Mao Cao', cursive;
-        font-size: 3vw;
-        color: white;
-    }
-
-  .form-wrapper {
-    margin: 0.5rem 0.5rem;
-    padding: 0.5rem 0.8rem;
-    background:rgba(100,100,100, 0.6);
-    font-variant-position: normal;
-  }
-
-  #check-list {
-    list-style-type: none;
-    /* margin: 0.5rem 0.5rem;
-    padding: 0.5rem 0.8rem; */
-    font-variant-position: normal;
+  h1 {
+      font-family: 'Permanent Marker', cursive;
+      font-size: 6vw;
+      color: white;
   }
   
-  ul, li {
-    list-style: none;
-    padding-left: 0;
+  h2 {
+      font-family: 'Permanent Marker', cursive;
+      font-size: 3vw;
+      color: white;
   }
 
-  .button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+  h3 {  
+      font-family: 'Liu Jian Mao Cao', cursive;
+      font-size: 3vw;
+      color: white;
   }
 
-  .button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  
+.form-wrapper {
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  background:rgba(100,100,100, 0.6);
+  font-variant-position: normal;
+}
+
+#check-list {
+  list-style-type: none;
+  /* margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.8rem; */
+  font-variant-position: normal;
+}
+
+ul, li {
+  list-style: none;
+  padding-left: 0;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
