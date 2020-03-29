@@ -1,7 +1,7 @@
   
 body {
   font-family: Montserrat;
-  font-size: 1.5vw;
+  font-size: 2vmax;
   color: white;
   background-image: url('images/win_caribbean.png');
   background-repeat: no-repeat;
@@ -13,19 +13,19 @@ body {
 
   h1 {
       font-family: 'Permanent Marker', cursive;
-      font-size: 6vw;
+      font-size: 6vmax;
       color: white;
   }
   
   h2 {
       font-family: 'Permanent Marker', cursive;
-      font-size: 3vw;
+      font-size: 3vmax;
       color: white;
   }
 
   h3 {  
       font-family: 'Liu Jian Mao Cao', cursive;
-      font-size: 3vw;
+      font-size: 3vmax;
       color: white;
   }
 
@@ -39,6 +39,11 @@ body {
 #check-list {
   list-style-type: none;
   font-variant-position: normal;
+}
+
+#message {
+  width: 70%;
+  height: auto;
 }
 
 ul, li {
