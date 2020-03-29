@@ -21,15 +21,15 @@ document.addEventListener('DOMContentLoaded', () => {
     checkListItem.classList.add('form-wrapper');
   
     const name = document.createElement('p');
-    name.textContent = `Your name:  ${this.fname.value} ${this.lname.value}`;
+    name.textContent = `Name:  ${this.fname.value} ${this.lname.value}`;
     checkListItem.appendChild(name);
   
     const email = document.createElement('p');
-    email.textContent = `Your email address: ${form.email.value}`;
+    email.textContent = `email address: ${form.email.value}`;
     checkListItem.appendChild(email);
 
     const message = document.createElement('p');
-    message.textContent = `Here is why I deserve it: ${form.message.value}`
+    message.textContent = `Here is why I deserve to win: ${form.message.value}`
     checkListItem.appendChild(message);
 
 
